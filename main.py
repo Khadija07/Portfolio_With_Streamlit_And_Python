@@ -20,7 +20,7 @@ def load_lottie(url):             #to load the animation
     return r.json()
 
 lottie_animation = load_lottie("https://lottie.host/c9a9be74-026e-447f-b824-47bc2930b95f/qV4r0qmRKR.json")
-img_project1 = Image.open("images/Screenshot 2024-06-11 at 13.31.10.png")
+img_project1 = Image.open("images/movie.png")
 #header_section
 
 with st.container():
